@@ -42,26 +42,14 @@
                 <li><a href="./about-us.php">About Us</a></li>
                 <li><a href="./team.php">Members</a></li>
                 <li><a href="./services.php">Events</a></li>
-                <li><a href="#">Pages</a>
-                    <ul class="dropdown">
-                        <li><a href="./about-us.php">About us</a></li>
-                        <li><a href="./class-timetable.php">Classes timetable</a></li>
-                        <li><a href="./bmi-calculator.php">Bmi calculate</a></li>
-                        <li><a href="./team.php">Our team</a></li>
-                        <li><a href="./gallery.php">Gallery</a></li>
-                        <li><a href="./blog.php">Our blog</a></li>
-                        <li><a href="./404.php">404</a></li>
-                    </ul>
-                </li>
-                <li><a href="./contact.php">CONTACT US</a></li>
+                <li><a href="./contact.php">Contact Us</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
         <div class="canvas-social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-youtube-play"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/NAFCTrainer"><i class="fa fa-facebook"></i></a>
+            <a href="http://www.twitter.com/NAFCTrainer"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/n-a-f-c-national-assciation-for-fitness-certification/"><i class="fa fa-linkedin"></i></a>
         </div>
     </div>
     <!-- Offcanvas Menu Section End -->
@@ -73,7 +61,7 @@
                 <div class="col-lg-3">
                     <div class="logo">
                         <a href="./index.html">
-                            <img src="img/logo.png" alt="">
+                            <img src="img/nafc-logo.png" alt="nafc-logo" width="250" height="auto">
                         </a>
                     </div>
                 </div>
@@ -84,28 +72,16 @@
                 <li><a href="./about-us.php">About Us</a></li>
                 <li><a href="./team.php">Members</a></li>
                 <li><a href="./services.php">Events</a></li>
-                <li><a href="#">Pages</a>
-                    <ul class="dropdown">
-                        <li><a href="./about-us.php">About us</a></li>
-                        <li><a href="./class-timetable.php">Classes timetable</a></li>
-                        <li><a href="./bmi-calculator.php">Bmi calculate</a></li>
-                        <li><a href="./team.php">Our team</a></li>
-                        <li><a href="./gallery.php">Gallery</a></li>
-                        <li><a href="./blog.php">Our blog</a></li>
-                        <li><a href="./404.php">404</a></li>
-                    </ul>
-                </li>
-                <li><a href="./contact.php">CONTACT US</a></li>
+                <li><a href="./contact.php">Contact Us</a></li>
             </ul>
                     </nav>
                 </div>
                 <div class="col-lg-3">
                     <div class="top-option">
                         <div class="to-social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/NAFCTrainer"><i class="fa fa-facebook"></i></a>
+                            <a href="http://www.twitter.com/NAFCTrainer"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/n-a-f-c-national-assciation-for-fitness-certification/"><i class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -148,28 +124,27 @@
                     <div class="contact-widget">
                         <div class="cw-text">
                             <i class="fa fa-map-marker"></i>
-                            <p>333 Middle Winchendon Rd, Rindge,<br/> NH 03461</p>
+                            <p>226 S Bridge St.<br>Sheridan, OR 97378</p>
                         </div>
                         <div class="cw-text">
                             <i class="fa fa-mobile"></i>
                             <ul>
-                                <li>125-711-811</li>
-                                <li>125-668-886</li>
+                                <li>800-324-8315</li>
                             </ul>
                         </div>
                         <div class="cw-text email">
                             <i class="fa fa-envelope"></i>
-                            <p>Support.gymcenter@gmail.com</p>
+                            <p>nafc.incFC@gmail.com</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="leave-comment">
-                        <form action="#">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Email">
-                            <input type="text" placeholder="Website">
-                            <textarea placeholder="Comment"></textarea>
+                        <form action="send_email.php" method="post">
+                            <input name="name" id="name" type="text" placeholder="Name" required> 
+                            <input name="email" id="email" type="text" placeholder="Email"  required>
+                            <input name="subject" id="subject" type="text" placeholder="Subject"  required>
+                            <textarea name="message" id="message" placeholder="Message"  required></textarea>
                             <button type="submit">Submit</button>
                         </form>
                     </div>
@@ -177,7 +152,7 @@
             </div>
             <div class="map">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12087.069761554938!2d-74.2175599360452!3d40.767139456514954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c254b5958982c3%3A0xb6ab3931055a2612!2sEast%20Orange%2C%20NJ%2C%20USA!5e0!3m2!1sen!2sbd!4v1581710470843!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed/v1/place?q=226+S+Bridge+St,+Sheridan,+OR+97378,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     height="550" style="border:0;" allowfullscreen=""></iframe>
             </div>
         </div>
@@ -191,22 +166,21 @@
                 <div class="col-md-4">
                     <div class="gt-text">
                         <i class="fa fa-map-marker"></i>
-                        <p>333 Middle Winchendon Rd, Rindge,<br/> NH 03461</p>
+                        <p>226 S Bridge St.<br>Sheridan, OR 97378</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="gt-text">
                         <i class="fa fa-mobile"></i>
                         <ul>
-                            <li>125-711-811</li>
-                            <li>125-668-886</li>
+                            <li>800-324-8315</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="gt-text email">
                         <i class="fa fa-envelope"></i>
-                        <p>Support.gymcenter@gmail.com</p>
+                        <p>nafc.incFC@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -221,16 +195,15 @@
                 <div class="col-lg-4">
                     <div class="fs-about">
                         <div class="fa-logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
+                            <a href="#"><img src="img/nafc-logo.png" alt="nafc-logo"></a>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore dolore magna aliqua endisse ultrices gravida lorem.</p>
                         <div class="fa-social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa  fa-envelope-o"></i></a>
+                            <a href="https://www.facebook.com/NAFCTrainer"><i class="fa fa-facebook"></i></a>
+                            <a href="http://www.twitter.com/NAFCTrainer"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/n-a-f-c-national-assciation-for-fitness-certification/"><i class="fa fa-linkedin"></i></a>
+                            <a href="mailto:nafc.incFC@gmail.com"><i class="fa  fa-envelope-o"></i></a>
                         </div>
                     </div>
                 </div>

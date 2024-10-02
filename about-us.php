@@ -30,8 +30,8 @@
         <div class="loader"></div>
     </div>
 
- <!-- Offcanvas Menu Section Begin -->
- <div class="offcanvas-menu-overlay"></div>
+    <!-- Offcanvas Menu Section Begin -->
+    <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="canvas-close">
             <i class="fa fa-close"></i>
@@ -42,26 +42,14 @@
                 <li><a href="./about-us.php">About Us</a></li>
                 <li><a href="./team.php">Members</a></li>
                 <li><a href="./services.php">Events</a></li>
-                <li><a href="#">Pages</a>
-                    <ul class="dropdown">
-                        <li><a href="./about-us.php">About us</a></li>
-                        <li><a href="./class-timetable.php">Classes timetable</a></li>
-                        <li><a href="./bmi-calculator.php">Bmi calculate</a></li>
-                        <li><a href="./team.php">Our team</a></li>
-                        <li><a href="./gallery.php">Gallery</a></li>
-                        <li><a href="./blog.php">Our blog</a></li>
-                        <li><a href="./404.php">404</a></li>
-                    </ul>
-                </li>
-                <li><a href="./contact.php">CONTACT US</a></li>
+                <li><a href="./contact.php">Contact Us</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
         <div class="canvas-social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-youtube-play"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/NAFCTrainer"><i class="fa fa-facebook"></i></a>
+            <a href="http://www.twitter.com/NAFCTrainer"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/n-a-f-c-national-assciation-for-fitness-certification/"><i class="fa fa-linkedin"></i></a>
         </div>
     </div>
     <!-- Offcanvas Menu Section End -->
@@ -73,7 +61,7 @@
                 <div class="col-lg-3">
                     <div class="logo">
                         <a href="./index.html">
-                            <img src="img/logo.png" alt="">
+                            <img src="img/nafc-logo.png" alt="nafc-logo" width="250" height="auto">
                         </a>
                     </div>
                 </div>
@@ -84,28 +72,16 @@
                 <li><a href="./about-us.php">About Us</a></li>
                 <li><a href="./team.php">Members</a></li>
                 <li><a href="./services.php">Events</a></li>
-                <li><a href="#">Pages</a>
-                    <ul class="dropdown">
-                        <li><a href="./about-us.php">About us</a></li>
-                        <li><a href="./class-timetable.php">Classes timetable</a></li>
-                        <li><a href="./bmi-calculator.php">Bmi calculate</a></li>
-                        <li><a href="./team.php">Our team</a></li>
-                        <li><a href="./gallery.php">Gallery</a></li>
-                        <li><a href="./blog.php">Our blog</a></li>
-                        <li><a href="./404.php">404</a></li>
-                    </ul>
-                </li>
-                <li><a href="./contact.php">CONTACT US</a></li>
+                <li><a href="./contact.php">Contact Us</a></li>
             </ul>
                     </nav>
                 </div>
                 <div class="col-lg-3">
                     <div class="top-option">
                         <div class="to-social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/NAFCTrainer"><i class="fa fa-facebook"></i></a>
+                            <a href="http://www.twitter.com/NAFCTrainer"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/n-a-f-c-national-assciation-for-fitness-certification/"><i class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -396,22 +372,21 @@
                 <div class="col-md-4">
                     <div class="gt-text">
                         <i class="fa fa-map-marker"></i>
-                        <p>333 Middle Winchendon Rd, Rindge,<br/> NH 03461</p>
+                        <p>226 S Bridge St.<br>Sheridan, OR 97378</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="gt-text">
                         <i class="fa fa-mobile"></i>
                         <ul>
-                            <li>125-711-811</li>
-                            <li>125-668-886</li>
+                            <li>800-324-8315</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="gt-text email">
                         <i class="fa fa-envelope"></i>
-                        <p>Support.gymcenter@gmail.com</p>
+                        <p>nafc.incFC@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -426,16 +401,15 @@
                 <div class="col-lg-4">
                     <div class="fs-about">
                         <div class="fa-logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
+                            <a href="#"><img src="img/nafc-logo.png" alt="nafc-logo"></a>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore dolore magna aliqua endisse ultrices gravida lorem.</p>
                         <div class="fa-social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa  fa-envelope-o"></i></a>
+                            <a href="https://www.facebook.com/NAFCTrainer"><i class="fa fa-facebook"></i></a>
+                            <a href="http://www.twitter.com/NAFCTrainer"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/n-a-f-c-national-assciation-for-fitness-certification/"><i class="fa fa-linkedin"></i></a>
+                            <a href="mailto:nafc.incFC@gmail.com"><i class="fa  fa-envelope-o"></i></a>
                         </div>
                     </div>
                 </div>
